@@ -1,6 +1,14 @@
 {
-    "Justin":{"name":"Justin","role":"Coordinator","nickname":"i don't know", "biopic":"justin.jpg"},
-    "John":{"name":"John","role":"super chill prof","nickname":"just john", "biopic":"john.jpg"},
-    "Joe":{"name":"Joe","role":"Prof","nickname":"Teddy Bear", "biopic":"joe.jpg"},
-    "Pan":{"name":"Pan","role":"Code Ninja","nickname":"Spider Pan", "biopic":"pan.jpg"}
-  }
+    "Singing":{"name":"Singing","Title":"The contralto voice", "img":"sing.jpg"},
+
+    "dance":{"name":"dance","Title":"movement of the body", "img":"dance.jpg"},
+    
+    "Cooking":{"name":"Cooking","Title":"Art of preparing food", "img":"cook.jpg"}
+}
+	
+
+
+
+
+
+
