@@ -1,5 +1,5 @@
 # FavouriteThings
-![GOT_images](/images/dance_copy.jpg)
+![Favourite_things](/images/dance_copy.jpg)
 
 ## Lists
 This assignment is all about to describe the persons favourite things that they like to do our want to do!!
