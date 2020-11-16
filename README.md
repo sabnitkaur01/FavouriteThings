@@ -1,5 +1,5 @@
 # FavouriteThings
-![Favourite_things](/images/dance_copy.jpg)
+![Favourite_things](/images/readme.png)
 
 ## Table of content:
 * Explaination
