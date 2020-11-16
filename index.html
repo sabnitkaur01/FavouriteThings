@@ -5,40 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Our Teaching Team and a Bit About Them">
-    <title>Working with SASS and Modules</title>
+    <title>Favourite things</title>
 
-    <!-- this has to be a css file -->
+   
     <link rel="stylesheet" href="css/master.css">
 </head>
 
-<body>
-    <main id="app">
-        <h1 class="hidden">Welcome to my awesome app</h1>
+<body class="preload">
+    <div id="wrapper">
 
-        <!-- this is an HTML component -->
-        <nav class="main-nav">
+        <header id="header">
+            <div class="inner"></div>
+         
+        <!-- header -->
+            <!-- <a href="index.html" class="logo"></a>
+                <span class="symbol">img</span> -->
+
+                <nav>
+                    <ul>
+                        <li><a href="#menu">menu</a></li>
+                    </ul>
+                </nav>
+
+    </div>
+</header> 
+
+    <!-- menu -->
+
+        <nav id="menu">
+            <!-- <h2>Menu</h2> -->
             <ul>
-                <li class="nav-item">
-                    <a href="#" >item 1</a>
-                </li>
-
-                <li class="nav-item"><a href="#">item 2</a></li>
-                <li class="nav-item"><a href="#">item 3</a></li>
-                <li class="nav-item"><a href="#">item 4</a></li>
-                <li class="nav-item"><a href="#">item 5</a></li>
+                <li><a href="index.html"></a></li>
             </ul>
         </nav>
-        <!-- end component -->
         
-        <!-- add a users section here -->
-        <section class="user-section">
-            <!-- <h1 class="hidden"></h1>
-            <h2 class="user-name"></h2>
-            <p class="user-nickname"></p>
-            <p class="user-role"></p> -->
-        </section>
-        <!-- end users section -->
-    </main>
+
+        <!-- main -->
+
+        <div id="main">
+            <div class="inner">
+                <header>
+                    <h1>Hey this is Sabnit Kaur,<br> This is my Favourite things site.
+                </h1>
+                <p>I am very much fond of three different things. <br> Singing, Dancing and Cooking!</p>
+                </header>
+
+                <section class="titles">
+                    <article class="style1">
+                        <span class="image">
+                            <img src="images/Sing.jpg" alt="sing">
+                        </span>  
+                    </article>
+            
+                    <article class="style2">
+                        <span class="image">
+                            <img src="Images/dance.jpg" alt="dance">
+                        </span>
+                    </article>
+
+                    <article class="style3">
+                        <span class="image">
+                            <img src="Images/cook.jpg" alt="cooking">
+                        </span>
+                    </article>
+                </section>
+
+            </div>
+        </div>
 
     <footer>this is a simple footer</footer>
 
@@ -47,7 +80,7 @@
         <div class="user">
             <h1 class="hidden"></h1>
         
-         <img src="dance_copy.jpg" alt="user image">
+         <img src="images/dance_copy.jpg" alt="user image">
             <!-- <h2 class="user-name"></h2>
             <p class="user-nickname"></p>
             <p class="user-role"></p> -->
@@ -56,7 +89,7 @@
     <!-- end templates -->
 
     <!-- script files always go here -->
-    <script type="module" src="js/main.js"></script>
+    <script type="modules" src="js/main.js"></script>
 </body>
 
 </html>

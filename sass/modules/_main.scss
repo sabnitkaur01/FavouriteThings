@@ -1,27 +1,109 @@
-// main rules go here
 
-// another generic comment
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;}
+    
+
+article, header, footer, figure, menu, nav, section {
+    display: block;
+}
 
 body {
-    font: $main-font;
-    font-size: $main-font-size;
+    line-height: 1;
+    background-color: gray;
+}
 
-    background-color: $main-bg-color;
+ul {
+    list-style: none;
+}
 
-    margin: 0 0 50px 0; 
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+}
+
+mark {
+    background-color: transparent;
+    color: inherit;
+
+}
+
+input::-moz-focus-inner {
     border: 0;
+    padding: 0;
 }
 
-.box {
-    width: 30px;
-    height: 30px;
-
-    @include roundCorners(20px);
+input, select, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
 }
 
-.box2 { 
-    width: 30px;
-    height: 30px;
-
-    @include roundCorners(50%);
+@media screen and (max-width: 480px) 
+{
+    html, body {
+        min-width: 320px;
+    }
 }
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #ffffff;
+}
+
+h1 a {
+    color: inherit;
+}
+
+@media screen and (max-width: 736px) {
+
+    h1 {
+        font-size: 2em;
+        margin: 0 0 1em 0;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+}
+
+
+// body {
+//     background: image(images/dance.jpg);
+// }
